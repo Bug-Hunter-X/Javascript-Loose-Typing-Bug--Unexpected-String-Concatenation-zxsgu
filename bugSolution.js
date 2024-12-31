@@ -1,0 +1,1 @@
+function foo(a,b){a = Number(a);b = Number(b);return a+b;}console.log(foo(2,3));//5console.log(foo(2,"3"));//5console.log(foo("2",3));//5console.log(foo("2","3"));//5//Adding explicit type conversion with Number() ensures that addition will always be numerical.
