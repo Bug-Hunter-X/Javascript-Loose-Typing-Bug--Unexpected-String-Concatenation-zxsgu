@@ -1,0 +1,1 @@
+This example demonstrates a common error in Javascript stemming from its loose typing system. When adding numbers, Javascript will implicitly convert strings to numbers if possible. However, if both operands are strings, it will perform string concatenation instead of numerical addition. This can lead to unexpected results if not handled carefully.
